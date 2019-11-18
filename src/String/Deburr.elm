@@ -1,11 +1,11 @@
 module String.Deburr exposing (deburr)
 
-{-| Deburr
-    A small package exposing the deburr function, which converts unicode
-    characters with burrs (umlauts, accents, etc) to their ASCII counterparts.
-    The function intelligently handles capitals and some other edge cases.
+{-|
+This exposes a single function `deburr` this function removes burrs from
+a String.
 
-    @docs deburr
+# Deburr
+@docs deburr
 -}
 
 

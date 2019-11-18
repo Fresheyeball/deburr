@@ -1,7 +1,8 @@
 # Deburr
 
-This exposes a single function `deburr` this function removes burrs from
-a String.
+A small package exposing the deburr function, which converts unicode
+characters with burrs (umlauts, accents, etc) to their ASCII counterparts.
+The function intelligently handles capitals and some other edge cases.
 
 For example lets say you want to provide your users with a
 search input. And you want the search to be as forgiving as possible.
@@ -13,3 +14,4 @@ deburr "Jalapeño" == "Jalapeno"
 ```
 
 While useful, this function is expensive. Use with care.
+
